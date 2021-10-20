@@ -663,7 +663,7 @@ time1, time2, stat, and timeslide_id</p>
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
 <li><strong>memfp</strong> (<em>file object</em>) – Bytes stream of pickled data.</li>
-<li><strong>fp</strong> (<a class="reference external" href="https://docs.h5py.org/en/stable/high/file.html#h5py.File" title="(in h5py v3.4)"><em>h5py.File</em></a>) – An open hdf5 file handler. Must have write capability enabled.</li>
+<li><strong>fp</strong> (<a class="reference external" href="https://docs.h5py.org/en/stable/high/file.html#h5py.File" title="(in h5py v3.5)"><em>h5py.File</em></a>) – An open hdf5 file handler. Must have write capability enabled.</li>
 <li><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – The path (group name) to store the state dataset to. Default (None)
 will result in the array being stored to the top level.</li>
 <li><strong>dsetname</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – The name of the dataset to store the binary array to. Default is
@@ -691,7 +691,7 @@ new state data.</p>
 <li><strong>state</strong> (<em>any picklable object</em>) – The sampler state to dump to file. Can be the object returned by
 any of the samplers’ <cite>.state</cite> attribute (a dictionary of dictionaries),
 or any picklable object.</li>
-<li><strong>fp</strong> (<a class="reference external" href="https://docs.h5py.org/en/stable/high/file.html#h5py.File" title="(in h5py v3.4)"><em>h5py.File</em></a>) – An open hdf5 file handler. Must have write capability enabled.</li>
+<li><strong>fp</strong> (<a class="reference external" href="https://docs.h5py.org/en/stable/high/file.html#h5py.File" title="(in h5py v3.5)"><em>h5py.File</em></a>) – An open hdf5 file handler. Must have write capability enabled.</li>
 <li><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – The path (group name) to store the state dataset to. Default (None)
 will result in the array being stored to the top level.</li>
 <li><strong>dsetname</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – The name of the dataset to store the binary array to. Default is
@@ -749,7 +749,7 @@ be loaded by pickle.</p>
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>fp</strong> (<a class="reference external" href="https://docs.h5py.org/en/stable/high/file.html#h5py.File" title="(in h5py v3.4)"><em>h5py.File</em></a>) – An open hdf5 file handler.</li>
+<li><strong>fp</strong> (<a class="reference external" href="https://docs.h5py.org/en/stable/high/file.html#h5py.File" title="(in h5py v3.5)"><em>h5py.File</em></a>) – An open hdf5 file handler.</li>
 <li><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – The path (group name) that the state data is stored to. Default (None)
 is to read from the top level.</li>
 <li><strong>dsetname</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – The name of the dataset that the state data is stored to. Default is
